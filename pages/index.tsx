@@ -8,7 +8,7 @@ import { useState, useEffect } from 'react';
 const Home: NextPage = () => {
   const [video, setVideo] = useState<any>(null);
   useEffect(() => {
-    // setVideo(<ReactPlayer url="https://d3iqdl336k8b10.cloudfront.net/leetcode2022.mp4" controls={true} />);
+    setVideo(<ReactPlayer url="https://d3iqdl336k8b10.cloudfront.net/leetcode2022.mp4" controls={true} />);
   }, [])
   return (
     <div className={styles.container}>
